@@ -1,0 +1,203 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+ 
+}
+
+body {
+	padding: .5rem;
+  background:#f9f9f9;
+}
+
+.container {
+	height: auto;
+	--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  max-width:100%;
+  width: 35rem;
+  margin:0 auto;
+
+  border-radius: 0.5rem;
+}
+
+.container .imageContainer {
+	height:100%;
+}
+
+.container img {
+	max-width: 100%;
+	height: inherit;
+}
+
+.container .header-container {
+  padding-top:2rem;
+  padding-bottom:2rem;
+  padding-left:1.5rem;
+ 
+	color: white;
+	background: #36d1dc;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #36d1dc, #5b86e5);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container .header-container h1 {
+	font-weight: 700;
+
+}
+
+.container .about h2 {
+	border-bottom: 2px solid #36d1dc;
+	display: inline-block;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+	font-weight: 500;
+}
+
+.container .about p {
+  color:#4A4A4A;
+	line-height: 2.0;
+	padding: 1.3rem;
+  text-align:justify; 
+}
+
+.container .projects h2 {
+	border-bottom: 2px solid #36d1dc;
+	display: inline-block;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+  font-weight: 500;
+}
+
+.container .projects p {
+  color:#4A4A4A;
+  line-height: 2.0;
+	padding: 1.3rem;
+  text-align:justify;
+}
+
+
+
+.container .projectList i {
+	font-size: 1rem;
+	margin-right: 1rem;
+	margin-left: 0.5rem;
+	padding: 10px;
+	color: #36d1dc;
+}
+
+.container .projectList div {
+	padding: 0.5rem;
+	color: black;
+}
+.container .projectList .projectTitle{
+  cursor:pointer;
+}
+
+.container .projectList .projectDetails {
+	padding: 0px;
+	margin: 1rem;
+	--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+	border-radius: 0.5rem;
+}
+
+.projectDetails img {
+	width: 100% !important;
+	border-radius: 0.5rem;
+}
+
+.singleProject {
+	border-radius: 1.5rem !important;
+}
+
+.container .madeWith i {
+  cursor:pointer;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.container .hideProject {
+  display:none;
+}
+.container .displayProjects{
+  display:block;
+}
+
+.container .contact h2 {
+	border-bottom: 2px solid #36d1dc;
+	display: inline-block;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+  font-weight: 500;
+}
+
+.container .contact p {
+  color:#4A4A4A;
+	line-height: 2.0;
+	padding: 1.3rem;
+  text-align:justify;
+}
+.container .contact .social-links {
+	display: flex;
+	justify-content: center;
+}
+
+.container .social-links i {
+	font-size: 3rem;
+	padding: 1rem;
+	color: #36d1dc;
+	cursor: pointer;
+  margin-bottom:2rem;
+  margin-top:2rem;
+}
+
+.container .contact .emailMessage {
+	font-size: 14px;
+	margin-left: 1rem;
+}
+
+.container .hint {
+	margin-left: 1rem;
+}
+
+
+
+@media (min-width:481px)  {
+  body{
+    padding:2rem;
+  }
+  .container .about {
+    margin-top:2rem;
+  }
+  .container .projects{
+    margin-top:2rem;
+  }
+
+  .container .contact {
+    margin-top:2rem;
+
+  }
+
+.container img {
+  max-width:100%;
+ 
+}
+.container .projectDetails {
+  max-width:70%;
+  margin:0 auto !important;
+  
+  text-align:center;
+}
+ 
+ }
