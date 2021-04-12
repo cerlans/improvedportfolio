@@ -103,15 +103,10 @@ function Content() {
                 </div>
                 <div className="projectDescription">
                   <p>
-                    Code and Learn is an interactive full stack application made
-                    with Google Firebase, auth0,Youtube Data V3 API and
-                    ReactRouter.
+                    Lex Contractors is a mock construction site i created with vanilla css and react js.
+                    its purpose is to test my design and responsive layout skills.
                   </p>
-                  <p>
-                    It is an interactive note taking/video watching application
-                    that allows users to save courses, search for courses, watch
-                    videos, and take notes during video watching.
-                  </p>
+                  
                   <div className="madeWith">
                     <i class="fab fa-react"></i>
                     <i class="fab fa-html5"></i>
