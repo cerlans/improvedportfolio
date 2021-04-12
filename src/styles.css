@@ -34,6 +34,10 @@ body {
 	height: inherit;
 }
 
+.container .heroImage{
+	max-height:20rem;
+}
+
 .container .header-container {
   padding-top:2rem;
   padding-bottom:2rem;
