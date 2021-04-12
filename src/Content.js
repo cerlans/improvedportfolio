@@ -12,7 +12,7 @@ function Content() {
     <>
       <div className="container">
         <div className="imageContainer">
-        <img src="https://i.vgy.me/z4svLJ.png" alt="z4svLJ.png"/>
+        <img src="https://i.vgy.me/z4svLJ.png" alt="z4svLJ.png" className='heroImage'/>
         </div>
         <div className="header-container">
           <h1>Kevin G</h1>
