@@ -29,7 +29,7 @@ body {
 
 .container img {
 	max-width: 100%;
-	height: inherit;
+	height: auto;
 }
 
 .container .header-container {
