@@ -47,9 +47,8 @@ function Content() {
                 </div>
                 <div className="projectDescription">
                   <p>
-                    Code and Learn is an interactive full stack application made
-                    with Google Firebase, auth0,Youtube Data V3 API and
-                    ReactRouter.
+                    A single page application that is made with vanilla javascript, Google auth, firebase, and youtube Data V3 API.
+                    routing is handled by flat iron director.js
                   </p>
                   <p>
                     It is an interactive note taking/video watching application
@@ -59,7 +58,6 @@ function Content() {
                    <i>Work In progress</i>
                   <div className="madeWith">
                     <i class="fab fa-js"></i>
-                    <i class="fab fa-react"></i>
                     <i class="fab fa-google"></i>
                     <i class="fab fa-youtube"></i>
                     <i class="fas fa-user-lock"></i>
