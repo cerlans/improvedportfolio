@@ -42,7 +42,7 @@ function Content() {
               <div className="animate__animated animate__fadeIn hideProject">
                 <div className="projectDetails">
                   <div className="projectImage">
-                    <a href='https://github.com/cerlans/code-and-learn'><img src="https://i.vgy.me/2frNWJ.png" alt="2frNWJ.png"/></a>
+                    <a href='https://github.com/cerlans/Vanilla-code-learn'><img src="https://i.vgy.me/2frNWJ.png" alt="2frNWJ.png"/></a>
                   </div>
                 </div>
                 <div className="projectDescription">
@@ -56,6 +56,7 @@ function Content() {
                     videos, and take notes during video watching.
                   </p>
                    <i>Work In progress</i>
+                   <i><a href='https://stackblitz.com/edit/vanilla-flavor'>Live Link</a></i>
                   <div className="madeWith">
                     <i class="fab fa-js"></i>
                     <i class="fab fa-google"></i>
