@@ -153,7 +153,6 @@ function Content() {
             <a href="https://github.com/cerlans" target="blank">
               <i className="fab fa-github"></i>
             </a>
-            <i className="fas fa-phone-square"></i>
           </div>
         </div>
       </div>
