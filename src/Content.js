@@ -12,7 +12,7 @@ function Content() {
     <>
       <div className="container">
         <div className="imageContainer">
-        <img src="https://i.vgy.me/z4svLJ.png" alt="z4svLJ.png" className='heroImage'/>
+        <img src="https://i.vgy.me/z4svLJ.png" alt="z4svLJ.png"/>
         </div>
         <div className="header-container">
           <h1>Kevin G</h1>
@@ -42,13 +42,13 @@ function Content() {
               <div className="animate__animated animate__fadeIn hideProject">
                 <div className="projectDetails">
                   <div className="projectImage">
-                    <a href='https://github.com/cerlans/Vanilla-code-learn'><img src="https://i.vgy.me/2frNWJ.png" alt="2frNWJ.png"/></a>
+                    <a href='https://github.com/cerlans/code-and-learn'><img src="https://i.vgy.me/q7YAVe.png" alt="2frNWJ.png"/></a>
+                   
                   </div>
                 </div>
                 <div className="projectDescription">
                   <p>
-                    A single page application that is made with vanilla javascript, Google auth, firebase, and youtube Data V3 API.
-                    routing is handled by flat iron director.js
+                   A single page application that is made with vanilla javascript, Google auth, firebase, and youtube Data V3 API. routing is handled by flat iron director.js, a small routing library
                   </p>
                   <p>
                     It is an interactive note taking/video watching application
@@ -56,12 +56,11 @@ function Content() {
                     videos, and take notes during video watching.
                   </p>
                    <i>Work In progress</i>
-                   <i><a href='https://stackblitz.com/edit/vanilla-flavor'>Live Link</a></i>
                   <div className="madeWith">
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-google"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fas fa-user-lock"></i>
+                    <i className="fab fa-js"></i>
+                    <i className="fab fa-google"></i>
+                    <i className="fab fa-youtube"></i>
+                    <i className="fas fa-user-lock"></i>
                   </div>
                 </div>
               </div>
@@ -83,9 +82,9 @@ function Content() {
                     uses the browsers FileReader API
                   </p>
                   <div className="madeWith">
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
+                    <i className="fab fa-js"></i>
+                    <i className="fab fa-html5"></i>
+                    <i className="fab fa-css3-alt"></i>
                   </div>
                 </div>
               </div>
@@ -97,19 +96,18 @@ function Content() {
               <div className="hideProject">
                 <div className="projectDetails">
                   <div>
-                    <a href='https://stainlessrep.netlify.app/'><img src="https://i.vgy.me/OgrXjP.png" alt="OgrXjP.png" /></a>
+                    <a href='https://stainlessrep.netlify.app/'><img src="https://i.vgy.me/ujXwZ4.png" alt="OgrXjP.png" />
+                    </a>
                   </div>
                 </div>
                 <div className="projectDescription">
                   <p>
-                    Lex Contractors is a mock construction site i created with vanilla css and react js.
-                    its purpose is to test my design and responsive layout skills.
+                    Lex Contractors is a mock construction site i created with vanilla css and react js. its purpose is to test my design and responsive layout skills
                   </p>
-                  
                   <div className="madeWith">
-                    <i class="fab fa-react"></i>
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
+                    <i className="fab fa-react"></i>
+                    <i className="fab fa-html5"></i>
+                    <i className="fab fa-css3-alt"></i>
                   </div>
                 </div>
               </div>
@@ -135,9 +133,9 @@ function Content() {
                     Googlebooks
                   </p>
                   <div className="madeWith">
-                    <i class="fab fa-react"></i>
-                    <i class="fab fa-google"></i>
-                    <i class="fab fa-css3-alt"></i>
+                    <i className="fab fa-react"></i>
+                    <i className="fab fa-google"></i>
+                    <i className="fab fa-css3-alt"></i>
                   </div>
                 </div>
               </div>
@@ -150,12 +148,12 @@ function Content() {
           <i className="emailMessage">(Email icon will open a new window)</i>
           <div className="social-links">
             <a href="mailto:kgomez222@hotmail.com" target="_self">
-              <i class="fas fa-envelope-open-text"></i>
+              <i className="fas fa-envelope-open-text"></i>
             </a>
             <a href="https://github.com/cerlans" target="blank">
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
-            <i class="fas fa-phone-square"></i>
+            <i className="fas fa-phone-square"></i>
           </div>
         </div>
       </div>
