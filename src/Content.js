@@ -42,7 +42,7 @@ function Content() {
               <div className="animate__animated animate__fadeIn hideProject">
                 <div className="projectDetails">
                   <div className="projectImage">
-                    <a href='https://github.com/cerlans/code-and-learn'><img src="https://i.vgy.me/q7YAVe.png" alt="2frNWJ.png"/></a>
+                    <a href='https://github.com/cerlans/Vanilla-code-learn'><img src="https://i.vgy.me/q7YAVe.png" alt="2frNWJ.png"/></a>
                    
                   </div>
                 </div>
