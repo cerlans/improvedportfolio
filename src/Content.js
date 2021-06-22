@@ -91,21 +91,21 @@ function Content() {
             </div>
             <div>
               <div className="projectTitle">
-                <i className="far fa-circle"></i>Lex Contractors
+                <i className="far fa-circle"></i>Coastal Web Solutions
               </div>
               <div className="hideProject">
                 <div className="projectDetails">
                   <div>
-                    <a href='https://stainlessrep.netlify.app/'><img src="https://i.vgy.me/ujXwZ4.png" alt="OgrXjP.png" />
+                    <a href='https://stackblitz.com/edit/web-platform-fenwu4'><img src="https://i.vgy.me/99aR1b.png" />
                     </a>
                   </div>
                 </div>
                 <div className="projectDescription">
                   <p>
-                    Lex Contractors is a mock construction site i created with vanilla css and react js. its purpose is to test my design and responsive layout skills
+                    Coastal Web Solutions is my personal company page, i created this website for my business in NORWALK CT. 
+                    Made in HTML and CSS
                   </p>
                   <div className="madeWith">
-                    <i className="fab fa-react"></i>
                     <i className="fab fa-html5"></i>
                     <i className="fab fa-css3-alt"></i>
                   </div>
